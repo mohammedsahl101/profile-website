@@ -317,7 +317,7 @@ img {
 }
 
 #header-home {
-  background: url("../img/showcase.jpg") no-repeat center right/cover;
+  background: url("img/showcase.jpg") no-repeat center right/cover;
   height: 100vh;
   color: #fff;
 }
@@ -333,7 +333,7 @@ img {
 }
 
 #header-inner {
-  background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
+  background: url("img/showcase.jpg") no-repeat 20% 30%/cover;
   height: 5.5rem;
   border-bottom: 3px solid #ffbc00;
 }
@@ -438,7 +438,8 @@ img {
 #about-a .about-info {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "bioimage bio bio" "aw1 aw2 aw3";
+      grid-template-areas: "bioimage bio bio"
+ "aw1 aw2 aw3";
   grid-gap: 1.2rem;
 }
 
@@ -544,7 +545,9 @@ img {
 #contact-a .text-fields {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: "name email" "subject phone" "message message";
+      grid-template-areas: "name email"
+ "subject phone"
+ "message message";
   grid-gap: 1.2rem;
   margin-bottom: 1.2rem;
 }
@@ -686,13 +689,21 @@ img {
     padding: 2rem 0 1rem 0;
   }
   #about-a .about-info {
-        grid-template-areas: "bioimage" "bio" "aw1" "aw2" "aw3";
+        grid-template-areas: "bioimage"
+ "bio"
+ "aw1"
+ "aw2"
+ "aw3";
   }
   #about-c {
     display: none;
   }
   #contact-a .text-fields {
-        grid-template-areas: "name" "subject" "email" "phone" "message";
+        grid-template-areas: "name"
+ "subject"
+ "email"
+ "phone"
+ "message";
   }
   #contact-b div {
     margin-bottom: 1rem;
